@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>selector</title>
+    <style>
+        input[class~="text"] {
+            color: red;
+        }
+        
+        div[class|=bacra] {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="input text" type="text" value="bacra" />
+    <div class="bacra">我是bacra</div>
+    <div class="bacra-title">我是bacra-title</div>
+    <div class="bacra-content">我是bacra-content</div>
+    <div class="sakura_footer">我是sakura_footer，不是以bacra开头的</div>
+</body>
+
+</html>
