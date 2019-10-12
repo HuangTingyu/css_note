@@ -18,7 +18,7 @@
     color: #808080;
 }
 
-.bacra-navbar>.navbar-item :hover {
+.bacra-navbar>.navbar-item:hover {
     color: #09BB07;
 }
 
