@@ -1,3 +1,5 @@
+详细代码 —— `code\bacra-ui\demo\layout`
+
 ### body样式
 
 ```css

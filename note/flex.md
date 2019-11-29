@@ -1,6 +1,10 @@
+详细代码 —— `code\testFlex`
+
 ## 弹性布局
 
 ### 弹性容器
+
+详细代码见 —— `code\demo\flex.html`
 
 设置弹性容器的方式
 
@@ -31,6 +35,8 @@ flex属性实际上是，flex-grow，flex-shrink，flex-basis三个属性的合�
 `flex:1` —— flex值为1时，表示`flex:1 1 0` ，容器内的盒子将平分空间
 
 - #### flex-grow
+
+详细代码见 —— `code\demo\flex-grow.html`
 
 当一行内弹性盒子不能充满整行时，用这个属性去分配空闲空间。
 
@@ -79,6 +85,8 @@ box1的flex-grow设置为1，占据剩下1/3空白空间，同理box2占据剩�
 
 - #### flex-shrink
 
+详细代码见 —— `code\demo\flex-shrink.html`
+
 ```css
 .flex-box {
     display: flex;
@@ -110,6 +118,8 @@ box1的flex-grow设置为1，占据剩下1/3空白空间，同理box2占据剩�
 设置flex-shrink以后，box2将不收缩，box1收缩超出部门的1/3，box3收缩超出部分的2/3。
 
 - #### flex-basis
+
+详细代码见 —— `code\demo\flex-basis.html`
 
 flex-basis是用来指定盒子基准宽度的。
 

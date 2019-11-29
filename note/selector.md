@@ -1,3 +1,5 @@
+详细代码见 —— `code\demo\selector.html`
+
 ## 选择器
 
 快速创建html结构 —— `html:5`
