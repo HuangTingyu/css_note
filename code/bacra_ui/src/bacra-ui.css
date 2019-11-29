@@ -12,4 +12,6 @@
 
 /* 布局 */
 
-@import './layout/index.css'
+@import './layout/index.css';
+
+@import './layout/input.css';

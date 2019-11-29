@@ -16,3 +16,26 @@
 .bacra-navbar~.bacra-content {
     padding-bottom: 2.5rem;
 }
+
+.bacra-content > .bacra-panel-title{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaa;
+    background: #fff;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: normal;
+}
+.bacra-content > .bacra-panel-body{
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.bacra-content .bacra-panel-body .no-padding{
+    padding: 0;
+}
